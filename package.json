@@ -1,0 +1,23 @@
+{
+  "name": "serverless-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/serverless offline -s dev",
+    "debug": "node --inspect ./node_modules/.bin/serverless offline -s dev",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.8.2",
+    "serverless": "^1.27.3",
+    "serverless-offline": "^3.25.1"
+  }
+}
